@@ -1,0 +1,32 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="building-consent-pim-rating-unit">
+    <SrcDataSource relativeToVRT="1">building-consent-pim-rating-unit.csv</SrcDataSource>
+    <GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryField encoding="WKT" field="WKT" reportSrcColumn="FALSE" />
+    <Field name="BuildingCo" src="BuildingCo" type="Integer" />
+    <Field name="RateUnitID" src="RateUnitID" type="Integer" />
+    <Field name="ApplNumber" src="ApplNumber" type="String" width="30" />
+    <Field name="ApplStatus" src="ApplStatus" type="String" width="50" />
+    <Field name="ApplDate" src="ApplDate" type="Date" />
+    <Field name="ApplType" src="ApplType" type="String" width="50" />
+    <Field name="UseType" src="UseType" type="String" width="50" />
+    <Field name="ApplDetail" src="ApplDetail" type="String" width="200" />
+    <Field name="EQPMO" src="EQPMO" type="String" width="50" />
+    <Field name="EstValue" src="EstValue" type="Real" />
+    <Field name="BCAccepted" src="BCAccepted" type="Date" />
+    <Field name="PIMGrant" src="PIMGrant" type="Date" />
+    <Field name="BCGrant" src="BCGrant" type="Date" />
+    <Field name="CCCIssued" src="CCCIssued" type="Date" />
+    <Field name="MinInsDate" src="MinInsDate" type="Date" />
+    <Field name="MaxInsDate" src="MaxInsDate" type="Date" />
+    <Field name="ValVstOrd" src="ValVstOrd" type="String" width="5" />
+    <Field name="ValAlphaID" src="ValAlphaID" type="String" width="2" />
+    <Field name="CustRef" src="CustRef" type="String" width="30" />
+    <Field name="LegDescr" src="LegDescr" type="String" width="255" />
+    <Field name="StrAddress" src="StrAddress" type="String" width="67" />
+    <Field name="LocName" src="LocName" type="String" width="25" />
+    <Field name="SiteName" src="SiteName" type="String" width="255" />
+    <Field name="ValRolNum" src="ValRolNum" type="String" width="5" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>
